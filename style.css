@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.5rem;
+  font-family: inherit;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.heading {
+  font-variant: small-caps;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  box-shadow: 5px 10px 8px #888888;
+  padding: 1.5rem;
+  width: 21rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+
+label {
+  font-weight: bold;
+  width: 10rem;
+}
+
+label.timeLabel {
+  width: 1.5rem;
+  font-weight: normal;
+  font-size: 0.7rem;
+}
+
+select {
+  font-size: 0.7rem;
+  font-family: inherit;
+  width: 7rem;
+  height: 1.2rem;
+}
+
+input {
+  width: 7rem;
+  height: 1.2rem;
+}
+
+input.date {
+  font-family: inherit;
+  font-size: 0.7rem;
+}
+
+input.timeInput {
+  width: auto;
+}
+
+.submit {
+  margin-top: 1rem;
+}
