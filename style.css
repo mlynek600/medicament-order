@@ -3,7 +3,7 @@
 }
 
 html {
-  font-size: 1.5rem;
+  font-size: 24px;
   font-family: inherit;
 }
 
@@ -26,7 +26,6 @@ html {
   border: 1px solid;
   box-shadow: 5px 10px 8px #888888;
   padding: 1.5rem;
-  width: 21rem;
 }
 
 .row {
@@ -69,4 +68,18 @@ input.timeInput {
 
 .submit {
   margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  .form {
+    padding: 0.2rem;
+  }
+
+  .order {
+    margin-top: 0;
+  }
 }
